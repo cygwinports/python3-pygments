@@ -1,0 +1,13 @@
+ORIG_PN="Pygments"
+inherit python3-distutils
+
+CATEGORY="Python"
+SUMMARY="Py3K syntax highlighting module"
+DESCRIPTION="Pygments is a syntax highlighting package written in Python.
+It is a generic syntax highlighter for general use in all kinds of software
+such as forum systems, wikis or other applications that need to prettify
+source code."
+HOMEPAGE="http://pygments.org/"
+
+python3_pygments_CONTENTS=${PYTHON3_SITELIB#/}" usr/share/doc/"
+PKG_IGNORE="usr/bin/pygmentize"

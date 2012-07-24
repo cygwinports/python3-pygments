@@ -1,8 +1,0 @@
-ORIG_PN="Pygments"
-inherit python-distutils
-
-DESCRIPTION="Pure Python syntax highlighting module"
-HOMEPAGE="http://pygments.org/"
-
-python3_pygments_CONTENTS=${PYTHON3_SITELIB#/}" usr/share/doc/"
-PKG_IGNORE="usr/bin/pygmentize"
