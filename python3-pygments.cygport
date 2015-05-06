@@ -1,6 +1,9 @@
 ORIG_PN="Pygments"
 inherit python3-distutils
 
+NAME="python3-pygments"
+VERSION=1.5
+RELEASE=1
 CATEGORY="Python"
 SUMMARY="Py3K syntax highlighting module"
 DESCRIPTION="Pygments is a syntax highlighting package written in Python.
