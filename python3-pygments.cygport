@@ -2,7 +2,7 @@ ORIG_PN="Pygments"
 inherit python3-distutils
 
 NAME="python3-pygments"
-VERSION=1.6
+VERSION=2.0.2
 RELEASE=1
 CATEGORY="Python"
 SUMMARY="Py3K syntax highlighting module"
@@ -11,6 +11,8 @@ It is a generic syntax highlighter for general use in all kinds of software
 such as forum systems, wikis or other applications that need to prettify
 source code."
 HOMEPAGE="http://pygments.org/"
+
+PATCH_URI="http://pkgs.fedoraproject.org/repo/pkgs/python-pygments/fix-shell-injection-in-font-manager.patch/1d33104797add7b5b9e3a7feda7631ee/fix-shell-injection-in-font-manager.patch"
 
 ARCH=noarch
 
